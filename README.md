@@ -49,11 +49,10 @@ Performed grid search on Gradient Boosting Regressor to fine-tune hyperparameter
 ## Running the Vehicle Price Prediction System
 1. Clone the repository and ensure that you have all the dependencies installed.
 2. Load the saved **gradient_boosting_model.sav** file.
-3. Run the provided notebook or script to input the vehicle features.
-4. The system will output the predicted price based on the provided features.
+3. Input features to the model
+4. The model will output the predicted price based on the provided features.
 
 ## Deployment
 The final model is saved as a pickle file (`gradient_boosting_model.sav`). The model can be loaded and used in any deployment environment, such as a Flask or Django web app.
 
-## Screenshots
-If applicable, include screenshots of the EDA and prediction outputs.
+
